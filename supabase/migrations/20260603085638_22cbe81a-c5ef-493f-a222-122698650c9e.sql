@@ -1,0 +1,2 @@
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS trial_started_at timestamptz;
+UPDATE public.profiles SET trial_started_at = COALESCE(trial_started_at, created_at) WHERE has_completed_onboarding = true AND trial_started_at IS NULL;

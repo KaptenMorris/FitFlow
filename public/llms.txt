@@ -1,0 +1,11 @@
+# FitFlow
+
+> FitFlow är en personlig tränings- och kostapp där användare skapar scheman, loggar pass, hittar övningar och recept, samt följer sin progress.
+
+## Pages
+
+- [Start](/): Inloggning och introduktion till FitFlow.
+
+## Optional
+
+- [Logga in](/login): Inloggning för befintliga användare.
